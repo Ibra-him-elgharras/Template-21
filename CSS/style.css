@@ -50,9 +50,136 @@ footer .header .icons{
 
 footer .header .icons i{
     margin-right: 15px;
+    color: #fff;
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background: red;
-    padding: 7.5px;
+    text-align: center;
+    padding-top: 7.5px;
+    cursor: pointer;
 }
+
+footer .header .icons .fa-facebook-f{
+    background: #010191df;
+    
+}
+
+footer .header .icons .fa-facebook-f:hover{
+    background: #fff;
+    color: #010191df;
+}
+
+footer .header .icons .fa-twitter{
+    background: #087eecdf;
+}
+footer .header .icons .fa-twitter:hover{
+    background: #fff;
+    color: #087eecdf;
+}
+
+footer .header .icons .fa-square-instagram{
+    background: #be1678df;
+}
+
+footer .header .icons .fa-square-instagram:hover{
+    background: #fff;
+    color: #be1678df;
+}
+
+footer .header .icons .fa-linkedin-in{
+    background: #015bafea;
+}
+
+footer .header .icons .fa-linkedin-in:hover{
+    background: #fff;
+    color: #015bafea;
+}
+
+footer .header .icons .fa-youtube{
+    background: #e40f0fdf;
+}
+
+footer .header .icons .fa-youtube:hover{
+    background: #fff;
+    color: #e40f0fdf;
+}
+
+footer .section{
+    
+    width: 100%;
+    padding: 25px 90px 25px 80px;
+    background: #0a005c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+footer .section a{
+    display: block;
+    color: #ffffffb8;
+    padding: 5px 0;
+    text-decoration: transparent;
+}
+
+footer .section a:hover{
+    text-decoration: underline;
+    
+}
+
+footer .section h4{
+    color: #ffffffef;
+    font-weight: 500;
+    margin: 10px 0;
+    position: relative;
+}
+
+
+footer .section h4::before{
+    content: '';
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    top: 20px;
+}
+
+footer .section .Subscribe-us h4{
+    position: absolute;
+    top: 30px;
+}
+
+footer .section input{
+    display: block;
+    width: 210px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+footer .section .Subscribe-us .email{
+    border: 1px solid #fff;
+    background: #0b005c;
+    padding-left: 10px;
+    color: #ffffffd2;
+    outline: none;
+    margin-bottom: 5px;
+}
+
+footer .section .Subscribe-us .sub{
+    border: none;
+    background: #ffffffc4;
+    color: #0a005c;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer .section .Subscribe-us .sub:hover{
+    background: #ffffff;
+    cursor: pointer;
+}
+
+
+
+
+
